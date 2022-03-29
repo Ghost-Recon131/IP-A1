@@ -42,10 +42,12 @@ ammount_of_tax = None
 # If statements to determine amount of tax to be paid
 if(income < 18200):
     ammount_of_tax = 0
-elif(income <= 45000):
-    ammount_of_tax = income * 0.19
-elif(income > 45000):
-    ammount_of_tax = income * 0.32
+else:
+    if(income <= 45000):
+        ammount_of_tax = income * 0.19
+    else:
+        if(income > 45000):
+            ammount_of_tax = income * 0.32
 
 
 # Output results
@@ -53,7 +55,6 @@ if(ammount_of_tax == 0):
     print("you will pay no tax")
 else:
     print("you will pay", ammount_of_tax)
-
 
 
 
