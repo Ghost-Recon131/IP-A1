@@ -1,5 +1,5 @@
 #!/bin/python3
-# EXERCISE 2
+# EXERCISE 3
 # Student name: Jingxuan Feng
 # Student number: s3843790
 
